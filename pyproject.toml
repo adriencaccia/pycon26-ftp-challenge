@@ -1,0 +1,12 @@
+[project]
+name = "pycon26-ftp-challenge-bench"
+version = "0.0.0"
+description = "Local CodSpeed walltime benchmarks for iterating on submissions/adriencaccia.py."
+requires-python = ">=3.14"
+dependencies = []
+
+[dependency-groups]
+bench = ["pytest>=9", "pytest-codspeed>=5"]
+
+[tool.pytest.ini_options]
+testpaths = ["benchmarks"]
